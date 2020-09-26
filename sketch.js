@@ -6,6 +6,7 @@ let eyelX = 0;
 let eyelY = 0;
  
 function setup() {
+  frameRate(10);
   createCanvas(800, 800);
   video = createCapture(VIDEO);
   video.hide();
